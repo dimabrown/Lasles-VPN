@@ -6,8 +6,7 @@
     const menu = document.querySelector('.menu')
     const bodyFix = document.querySelector('body')
 
-    burgerWrap.addEventListener('click', function (e) {
-        e.preventDefault()
+    burgerWrap.addEventListener('click', function () {
         if (menu.classList.contains('menu__active')) {
             burger.classList.remove('menu__burger-active')
             menu.classList.remove('menu__active')
