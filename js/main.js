@@ -4,7 +4,7 @@
     const burger = document.querySelector('.menu__burger')
     const burgerWrap = document.querySelector('.menu__burger-wrap')
     const menu = document.querySelector('.menu')
-    const bodyFix = document.querySelector('body')
+//     const bodyFix = document.querySelector('body')
 
     burgerWrap.addEventListener('click', function () {
         if (menu.classList.contains('menu__active')) {
