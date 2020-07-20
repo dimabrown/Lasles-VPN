@@ -18,10 +18,6 @@
         }
     });
 
-    if(window.innerWidth <= 960) {
-        burgerWrap.remove()
-    }
-
 }());
 
 
